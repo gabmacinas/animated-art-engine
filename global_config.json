@@ -1,7 +1,7 @@
 {
     "totalSupply": 4,
-    "height": 1000,
-    "width": 1000,
+    "height": 2000,
+    "width": 2000,
     "framesPerSecond": 12,
     "numberOfFrames": 12,
     "description": "Your description here",
@@ -14,7 +14,7 @@
     "outputType": "gif",
     "loopGif": true,
     "numLoopMP4": 0,
-    "debug": false,
+    "debug": true,
     "useBatches": false,
     "numFramesPerBatch": 4,
     "useMultiprocessing": false,

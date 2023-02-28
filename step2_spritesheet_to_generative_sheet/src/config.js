@@ -40,14 +40,12 @@ let layerConfigurations = [
     growEditionSizeTo: totalSupply,
     namePrefix: "", // Use to add a name to Metadata `name:`
     layersOrder: [
-      { name: "Background" },
-      { name: "Landscape" },
-      {
-        name: "Ball",
-      },
-      {
-        name: "Hat",
-      },
+      { name: "BACKGROUND" },
+      { name: "BODY" },
+      { name: "CLOTHES" },
+      { name: "MOUTH" },
+      { name: "EYES" },
+      { name: "HEAD" },
     ],
   },
 ]
@@ -69,9 +67,12 @@ const layerConfigurationsZIndex = [
     growEditionSizeTo: totalSupply,
     namePrefix: "Bouncing Ball Z-Index Example:",
     layersOrder: [
-      { name: "Background" },
-      { name: "Landscape" },
-      { name: "Ball" },
+      { name: "BACKGROUND" },
+      { name: "BODY" },
+      { name: "CLOTHES" },
+      { name: "MOUTH" },
+      { name: "EYES" },
+      { name: "HEAD" },
     ],
   },
 ]
@@ -83,20 +84,24 @@ const layerConfigurationsGrouping = [
     growEditionSizeTo: totalSupply - 1,
     namePrefix: "Bouncing Ball Common:",
     layersOrder: [
-      { name: "Background" },
-      { name: "Landscape" },
-      { name: "Common Ball", trait: "Ball" },
-      { name: "Common Hat", trait: "Hat" },
+      { name: "BACKGROUND" },
+      { name: "BODY" },
+      { name: "CLOTHES" },
+      { name: "MOUTH" },
+      { name: "EYES" },
+      { name: "HEAD" },
     ],
   },
   {
     growEditionSizeTo: totalSupply,
     namePrefix: "Bouncing Ball Rare:",
     layersOrder: [
-      { name: "Background" },
-      { name: "Landscape" },
-      { name: "Rare Ball", trait: "Ball" },
-      { name: "Rare Hat", trait: "Hat" },
+      { name: "BACKGROUND" },
+      { name: "BODY" },
+      { name: "CLOTHES" },
+      { name: "MOUTH" },
+      { name: "EYES" },
+      { name: "HEAD" },
     ],
   },
 ]
@@ -106,11 +111,12 @@ const layerConfigurationsIfThen = [
     growEditionSizeTo: totalSupply,
     namePrefix: "", // Use to add a name to Metadata `name:`
     layersOrder: [
-      { name: "Background" },
-      { name: "Landscape" },
-      {
-        name: "Ball",
-      },
+      { name: "BACKGROUND" },
+      { name: "BODY" },
+      { name: "CLOTHES" },
+      { name: "MOUTH" },
+      { name: "EYES" },
+      { name: "HEAD" },
     ],
   },
 ]
